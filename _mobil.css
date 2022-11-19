@@ -1,0 +1,150 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 260px);
+    padding-right: calc(50% - 260px);
+  }
+
+  .mobile-menu {
+    width: 100%;
+    right: -100%;
+  }
+
+  .mobile-menu__link-site {
+    display: flex;
+  }
+
+  .header__checkbox:checked ~ .mobile-menu {
+    right: 0;
+  }
+
+  .header__link-site {
+    display: none;
+  }
+
+  .promo__img {
+    display: none;
+  }
+
+  .promo__content {
+    min-height: 363px;
+    padding-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .promo__title {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .promo__heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .sale {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
+
+  .sale__item img {
+    width: 100%;
+  }
+
+  .sale__item_big {
+    min-height: 111px;
+    background-image: url(img/sibig.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .product-box__content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .product__add {
+    top: 30%;
+    left: 33%;
+  }
+
+  .footer_subscribe {
+    flex-direction: column;
+    gap: 58px;
+    padding-top: 54px;
+    padding-bottom: 109px;
+  }
+
+  .footer__bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 48px;
+    padding-top: 42px;
+    padding-bottom: 8px;
+  }
+
+  .footer_input_header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+  }
+
+  .footer_input_header_mini {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .head {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .header__left {
+    margin-left: 0px;
+  }
+
+  .header__right {
+    margin-right: 0px;
+  }
+
+  .filter {
+    width: 220px;
+  }
+
+  .sort__summary {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .product_description-content {
+    max-width: 100%;
+  }
+
+  .product_description__info-text {
+    width: 326px;
+  }
+
+  .gray-line {
+    width: 174px;
+    margin-top: 65px;
+    border-bottom: 1px solid #EAEAEA;
+  }
+}
+@media (max-width: 525px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .gray-line {
+    margin-top: 65px;
+    width: 174px;
+    border-bottom: 1px solid #EAEAEA;
+  }
+}/*# sourceMappingURL=_mobil.css.map */
